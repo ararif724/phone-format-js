@@ -1,0 +1,27 @@
+{
+	"name": "@ararif/phone-format-js",
+	"version": "1.0.0",
+	"description": "Lightweight package to format phone number",
+	"main": "src/phone-format.js",
+	"devDependencies": {
+		"browserify": "^17.0.0",
+		"tinyify": "^4.0.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "browserify src/phone-format.js --standalone formatPhoneNumber -p tinyify > phone-format.js"
+	},
+	"keywords": [
+		"phone-format-js"
+	],
+	"author": "A R Arif",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ararif724/phone-format-js.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ararif724/phone-format-js/issues"
+	},
+	"homepage": "https://github.com/ararif724/phone-format-js#readme"
+}

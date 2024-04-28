@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>phone-format-js</title>
+		<script src="https://cdn.jsdelivr.net/gh/ararif724/phone-format-js/phone-format.js"></script>
+	</head>
+	<body>
+		<input id="phone" type="phone" name="phone" />
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				var inputField = document.getElementById("phone");
+
+				inputField.addEventListener("input", function (e) {
+					e.target.value = formatPhoneNumber(e.target.value, "-");
+				});
+			});
+		</script>
+	</body>
+</html>
