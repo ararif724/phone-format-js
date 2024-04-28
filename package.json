@@ -1,6 +1,6 @@
 {
 	"name": "@ararif/phone-format-js",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Lightweight package to format phone number",
 	"main": "src/phone-format.js",
 	"devDependencies": {
